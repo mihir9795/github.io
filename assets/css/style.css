@@ -353,7 +353,8 @@ section .container {
 }
 
 .section-title h2::after {
-  content: "";
+/*   content: ""; */
+  padding-top: 15px;
   width: 120px;
   height: 1px;
   display: inline-block;
